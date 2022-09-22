@@ -49,18 +49,70 @@ button.click {
     color: white;
 }
 .title {
+    text-align: center;
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    padding: 0px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .quote {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .quote-text {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    margin: 50px;
+    padding: 0px 100px; 
+}
+.box4 {
+    width: auto;
+}
+.box3 {
+    display: flex;
+    background-color: #3882f6;
+    padding: 16px;
+    margin: 100px;
+    justify-content: space-evenly;
+    
+}
+.box1 {
+    display: flex;
+    gap: 5px;
+}
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 16px;
+    margin: 0px;
+}
+.call-left {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    padding: 8px 24px;
+    color: white;
+    
 }
 .call {
-    background-color: #3882f6;
+    font-weight: bold;
+}
+button.click {
+    display: flex;
+    border: 2px solid white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+.call-right {
+    padding: 10px;
+    margin-top: 24px;
 }
