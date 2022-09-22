@@ -2,33 +2,69 @@
 
 body {
     font-family: Roboto sans-serif;
-    height: 100vh;
-    margin: 0;
-    
-    
+    margin: 0; 
+    width: 100%;
 }
 .header, .box4 {
     background-color: #1f2937;
 }
 .header {
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 0px; 
+    margin: 0px;
+}
+.sub-header {
+    padding: 0px;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 77px;
+
 }
 .left {
     display: flex;
     justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    
 }
 .right {
     display: flex;
+    margin-left: 32px;
+    margin-right: 32px;
+    justify-content: space-evenly;
+}
+.right-end {
+    padding: 0px;
+    margin: 50px;
+}
+.placeholder {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #e5e7eb;
+    width: 50rem;
+    justify-content: center;
 }
 ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
+    padding: 0px;
+    margin-right: 50px;
+}
+a {
+    display: flex;
+    color: white;
+    font-size: small;
+    text-decoration: none;
 }
 .hero {
     color: #f9faf8;
     font-size: 24px;
+    padding: 0px;
+    margin-left: 50px;
 }
 .hero-main {
     color: #f9faf8;
@@ -40,6 +76,7 @@ ul {
     font-size: 18px;
 }
 button {
+    margin-top: 10px;
     padding: 8px 16px;
     border: 8px;
 }
@@ -47,6 +84,13 @@ button.click {
     background: #3882f6;
     border: 1px solid #3882f6;
     color: white;
+    
+}
+.info-text, img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .title {
     text-align: center;
@@ -62,7 +106,7 @@ button.click {
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 0px;
-    margin: 0px;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -72,7 +116,7 @@ button.click {
     font-size: 36px;
     font-style: italic;
     margin: 50px;
-    padding: 0px 100px; 
+    padding: 0px 155px; 
 }
 .box4 {
     width: auto;
@@ -81,13 +125,23 @@ button.click {
     display: flex;
     background-color: #3882f6;
     padding: 16px;
-    margin: 100px;
+    margin: 77px;
     justify-content: space-evenly;
     
 }
 .box1 {
     display: flex;
-    gap: 5px;
+    gap: 32px;
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text {
+    text-align: justify;
+    
 }
 .copyright {
     text-align: center;
